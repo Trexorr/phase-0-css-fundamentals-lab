@@ -1,5 +1,56 @@
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
 }
+
+#heading{
+  text-align: center;
+}
+
+nav a{
+  background-color: rgba(128, 128, 128, 0.27);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+a {
+  
+  text-decoration: none;
+  color: blue;
+  ;
+}
+a:hover{
+  color: blueviolet;
+}
+
+#navbar{
+  text-align: center;
+  border: 10;
+  border-style: ridge;
+  padding: 10px;
+}
+
+#featured-property { 
+  box-sizing: border-box;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#featured-property p{
+width: 800px;
+display: inline-block;
+text-align: center;
+}
+
+#details{
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+#details div{
+  display: inline-block;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: left;
+}
+
